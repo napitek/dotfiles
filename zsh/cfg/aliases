@@ -1,0 +1,5 @@
+alias ls="eza --color=auto --icons --group --links --hyperlink -l"
+
+alias dots="cd ~/Projects/dotfiles/" 
+
+alias myip="curl ifconfig.me -4"
