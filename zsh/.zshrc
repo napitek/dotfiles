@@ -2,7 +2,7 @@ export BASE_DIR="$HOME/.config/zsh"
 
 source "${BASE_DIR}/cfg/aliases"
 
-fpath+=($HOME/.config/zsh/plugins/pure)
+fpath+=($BASE_DIR/plugins/pure)
 
 autoload -U promptinit; promptinit
 prompt pure
