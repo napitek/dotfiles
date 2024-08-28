@@ -21,4 +21,14 @@ setopt SHARE_HISTORY
 setopt EXTENDED_HISTORY
 setopt APPENDHISTORY
 
-export PATH=$HOME/.local/bin:$PATH
+# kitty ssh issue
+export TERM=xterm-256color
+
+export ANDROID_SDK_ROOT=$HOME/tools/android-sdk
+export ANDROID_HOME=$HOME/tools/android-sdk
+
+export PATH=$PATH:$ANDROID_SDK_ROOT/build-tools/35.0.0
+export PATH=$PATH:$ANDROID_SDK_ROOT/cmdline-tools/latest/bin
+export PATH=$PATH:$ANDROID_SDK_ROOT/platform-tools
+export PATH=$PATH:$HOME/.local/bin
+export PATH=$PATH:$HOME/tools/flutter/bin
